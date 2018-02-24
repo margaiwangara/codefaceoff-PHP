@@ -1,0 +1,238 @@
+body
+{
+	background: white;
+}
+header
+{
+	background: #a42f15;
+	height: 10%;width: 100%;
+	position: fixed;
+	margin: -9px;
+	z-index: 1;
+}
+#playground
+{
+	height: 100%;width: 80%;
+	position: absolute;
+	top: 10%;left: 10%;
+	border: solid black thin;
+	border-top: none;
+}
+/*
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked
+*/
+.recoverpass_two_form
+{
+	display: none;
+}
+
+#pitch
+{
+	height: 100%;width: 80%;
+	position: absolute;
+	top: 17%;left: 10%;
+	border: solid black thin;
+	border-top: none;
+}
+#links
+{
+	background: white;
+	height: 5%;width: 100%;
+	position: absolute;
+	top: 10%;
+	border: solid black thin;
+	z-index: -1;margin: 5px 0px 5px -9px;
+	text-align: right;
+
+}
+.linkplayers
+{
+	padding: 5px;
+	position: absolute;
+	right: 3.45%;
+	margin-top: -5px;
+}
+.linkplayers a
+{
+	text-decoration: none;
+	font-family: calibri;
+	color: brown;
+}
+.linkplayers a:hover
+{
+	color: red;
+}
+.linkplayers table td
+{
+	border-right: 2px solid brown;
+	text-align: bottom;
+	padding-right: 5px;
+}
+.linkplayers table
+{
+	float: right;
+}
+.linkplayers img
+{
+	color: brown;
+}
+#drop_down
+{
+	position: absolute;
+	top: 16%;right: 6.8%;
+	border: solid brown 2px;
+	border-top: none;
+	display: none;
+}
+#drop_down table td
+{
+	border-bottom: solid brown 2px;
+	text-align: center;
+}
+#drop_down a
+{
+	text-decoration: none;
+	font-family: calibri;
+	font-size: 15px;
+	color: brown;
+}
+#drop_down table
+{
+	background: white;
+}
+#pitchbox
+{
+	height: 100%;width: 80%;
+	position: absolute;
+	top: 17%;left: 10%;
+	border: solid black thin;
+	border-top: none;
+}
+.receptionbox
+{
+	height: 80%;width: 30%;
+	position: absolute;
+	left: 1%;top: 10%;
+	border: solid black 2px;
+}
+.messagebox
+{
+	height: 80%;width: 65%;
+	position: absolute;
+	left: 31%;top: 10%;
+	border: solid black 2px;
+	border-left: none;
+}
+.partitions table
+{
+	border-bottom: solid black 2px;
+	position: absolute;
+	width: 100%;height: 15%;
+	text-align: center;
+}
+.partitions table td
+{
+	border-right: solid black 2px;
+}
+.username table
+{
+	border-bottom: solid black 2px;
+	position: absolute;
+	width: 100%;height: 15%;
+	text-align: center;vertical-align: text-bottom;
+}
+.messagesdisplay table textarea
+{
+	resize: none;
+	
+}
+.messagesdisplay
+{
+	position: absolute;
+	top: 15%;left: 0.5%;
+	height: 83%;width: 98%;
+	padding: 10px 0px 0px 10px;
+	overflow-y: auto;
+}
+.messagesreception
+{
+	border: none;
+	height: 84.56%;width: 99%;
+	position: absolute;
+	top: 14.9%;left: 0%;
+	overflow-y: auto;
+}
+#msgcontainer table
+{
+	border: solid brown 2px;
+	width: 90%;
+	text-align: left;
+}
+#usersalute
+{
+	color: brown;
+	position: absolute;
+	top: 0%;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: berkshire swash;
+}
+#usersalute td
+{
+	text-align: justify;
+
+}
+#usersalute image
+{
+    border: solid grey 2px;
+}
+#playcourt
+{
+    border: solid brown 2px;
+    height:100%;width:70%;
+    position: absolute;
+    top: 17%;margin-left: -9px;
+    left: 15%;border-top: none;border-bottom: none;
+    overflow-y: auto;
+}
+#coverdisplay
+{
+    border: solid darkolivegreen 2px;
+    border-right:none;border-left:none;
+    position: absolute;
+    height: 40%;width: 100%;
+}
+#profiledisplay
+{
+    border: solid black 2px;
+    position: absolute;
+    height: 33%;width: 20%;
+    left: 37%;top: 23%;
+    background: white;
+    z-index: 1;
+}
+#usercontent
+{
+    position: absolute;
+    border-bottom: solid darkolivegreen 2px;
+    height: 70%;width: 100%;
+    top: 40%;margin-top: 10px;
+
+}
+.receptionbox table
+{
+    border-bottom: solid darkolivegreen 2px;
+    width:100%;
+    text-align: left;
+
+}
+#picturechooser
+{
+	position: absolute;
+	border: solid black 2px;
+	top: 50%;
+	height: 30%;width: 60%;
+}
